@@ -1,0 +1,169 @@
+:root {
+  --accent-color: #2196f3;
+  --primary-white-color: #ffffff;
+  --primary-white-color-info: rgba(255, 255, 255, 0.6);
+  --title-text-color: #212121;
+  --text-color: #757575;
+  --background-color: #f5f4fa;
+  --background-color-footer: #2f303a;
+}
+.page {
+  font-family: Roboto, sans-serif;
+  background-color: var(--primary-white-color);
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+}
+
+/*======Логотип======*/
+.logo {
+  font-family: Raleway;
+  color: var(--accent-color);
+
+}
+
+.logo-accent {
+  color: var(--title-text-color);
+}
+
+.logo-accent-footer {
+  color: var(--primary-white-color);
+}
+/*=====Посилання=====*/
+a {
+  color: var(--title-text-color);
+  text-decoration: none;
+}
+
+a:hover,
+a:focus {
+  color: var(--accent-color);
+}
+
+/*=====Герой=====*/
+.section {
+  background-color: var(--background-color-footer);
+}
+
+.section-title {
+  font-weight: 900;
+  color: var(--primary-white-color);
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+}
+
+.button {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+  background: var(--background-color);
+  color: var(--title-text-color);
+  border-radius: 4px;
+
+}
+
+.button:hover,
+.button:focus {
+  color: var(--primary-white-color);
+  background: var(--accent-color);
+  border-radius: 4px;
+
+}
+
+/*======Портфоліо=====*/
+.caption {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+
+.sub-subtitle {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.8;
+  letter-spacing: 0.03em;
+}
+/*======Портфоліо кнопки=====*/
+.button-bg {
+  background: var(--accent-color);
+  color: var(--primary-white-color);
+  border-radius: 4px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.8;
+  display: flex;
+  text-align: center;
+}
+/*=====Заголовки=====*/
+h2 {
+  color: var(--title-text-color);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+}
+
+h3 {
+  color: var(--title-text-color);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+/*=====Абзаци=====*/
+p {
+  color: var(--text-color);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+}
+/*=====Фото працівників======*/
+.section-img {
+    background-color: var(--background-color);
+    letter-spacing: 0.03em;
+}
+
+.name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.2;
+  text-align: center;
+  
+}
+
+.desc {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.2;
+  text-align: center;
+}
+/*======Футер=====*/
+
+.aside-adres {
+  color: var(--primary-white-color);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+}
+
+.aside {
+  color: var(--primary-white-color-info);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+}
+
+footer {
+  background-color: var(--background-color-footer);
+}
