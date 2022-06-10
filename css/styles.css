@@ -178,6 +178,7 @@ ul {
   letter-spacing: 0.03em;
   cursor: none;
   text-decoration: none;
+  font-style: normal;
 }
 
 .aside {
@@ -187,7 +188,8 @@ ul {
   line-height: 1.7;
   letter-spacing: 0.03em;
   cursor: none;
-  text-decoration: ;
+  text-decoration: none;
+  font-style: normal;
 }
 
 footer {
