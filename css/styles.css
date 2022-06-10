@@ -21,7 +21,10 @@ ul {
 .logo {
   font-family: Raleway;
   color: var(--accent-color);
-
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
 }
 
 .logo-accent {
@@ -32,13 +35,28 @@ ul {
   color: var(--primary-white-color);
 }
 /*=====Посилання=====*/
-a {
+.list {
   color: var(--title-text-color);
   text-decoration: none;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.15;
+  letter-spacing: 0.02em;
 }
 
-a:hover,
-a:focus {
+.list-info {
+  color: var(--text-color);
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.15;
+  letter-spacing: 0.02em;
+}
+
+.list:hover,
+.list:focus,
+.list-info:hover,
+.list-info:focus {
   color: var(--accent-color);
 }
 
@@ -54,26 +72,18 @@ a:focus {
   line-height: 1.36;
   text-align: center;
   letter-spacing: 0.06em;
+  text-transform: uppercase;
 }
 
-.button {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.62;
-  text-align: center;
-  letter-spacing: 0.03em;
-  background: var(--background-color);
-  color: var(--title-text-color);
-  border-radius: 4px;
-
-}
-
-.button:hover,
-.button:focus {
-  color: var(--primary-white-color);
+.button-bg {
   background: var(--accent-color);
+  color: var(--primary-white-color);
   border-radius: 4px;
-
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.8;
+  display: flex;
+  text-align: center;
 }
 
 /*======Портфоліо=====*/
@@ -85,24 +95,35 @@ a:focus {
 }
 
 .sub-subtitle {
+  color: var(--text-color);
   font-weight: 400;
   font-size: 16px;
   line-height: 1.8;
   letter-spacing: 0.03em;
 }
 /*======Портфоліо кнопки=====*/
-.button-bg {
-  background: var(--accent-color);
-  color: var(--primary-white-color);
-  border-radius: 4px;
-  font-weight: 700;
+
+.button {
+  font-family: Roboto;
+  font-weight: 500;
   font-size: 16px;
-  line-height: 1.8;
-  display: flex;
+  line-height: 1.62;
   text-align: center;
+  letter-spacing: 0.03em;
+  background: var(--background-color);
+  color: var(--title-text-color);
+  border-radius: 4px;
+}
+
+.button:hover,
+.button:focus {
+  color: var(--primary-white-color);
+  background: var(--accent-color);
+  border-radius: 4px;
 }
 /*=====Заголовки=====*/
-h2 {
+
+.text-info {
   color: var(--title-text-color);
   font-weight: 700;
   font-size: 36px;
@@ -110,7 +131,7 @@ h2 {
   letter-spacing: 0.03em;
 }
 
-h3 {
+.text {
   color: var(--title-text-color);
   font-weight: 700;
   font-size: 14px;
@@ -118,8 +139,9 @@ h3 {
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
+
 /*=====Абзаци=====*/
-p {
+.paragraph {
   color: var(--text-color);
   font-weight: 400;
   font-size: 14px;
@@ -128,8 +150,8 @@ p {
 }
 /*=====Фото працівників======*/
 .section-img {
-    background-color: var(--background-color);
-    letter-spacing: 0.03em;
+  background-color: var(--background-color);
+  letter-spacing: 0.03em;
 }
 
 .name {
@@ -137,7 +159,7 @@ p {
   font-size: 16px;
   line-height: 1.2;
   text-align: center;
-  
+  letter-spacing: 0.03em;
 }
 
 .desc {
@@ -154,6 +176,8 @@ p {
   font-size: 14px;
   line-height: 1.7;
   letter-spacing: 0.03em;
+  cursor: none;
+  text-decoration: none;
 }
 
 .aside {
@@ -162,6 +186,8 @@ p {
   font-size: 14px;
   line-height: 1.7;
   letter-spacing: 0.03em;
+  cursor: none;
+  text-decoration: ;
 }
 
 footer {
