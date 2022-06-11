@@ -25,6 +25,7 @@ ul {
   font-size: 26px;
   line-height: 1.2;
   letter-spacing: 0.03em;
+  text-decoration: none;
 }
 
 .logo-accent {
@@ -163,7 +164,7 @@ ul {
 }
 
 .desc {
-  font-weight: 400;
+  color: var(--text-color);
   font-size: 16px;
   line-height: 1.2;
   text-align: center;
